@@ -28,3 +28,8 @@ Elephant.prototype.addTrick = function(trick) {
 Elephant.prototype.play = function() {
   console.log(this.tricks[Math.floor(Math.random() * this.tricks.length)]);
 };
+
+let e = new Elephant("John", 12, ['juggle']);
+console.log(e);
+e.grow
+console.log(e);
